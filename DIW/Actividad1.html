@@ -5,10 +5,31 @@
     <title>Actividad 1</title>
 </head>
 <body>
-    <form action="" accept-charset="utf-8" enctype="multipart/form-data">
+    <!--Uso de from,accept-charset,enctype,method,label,input,name-->
+    <form action="" accept-charset="utf-8" enctype="multipart/form-data" method="get">
         <label for="fname">First name:</label>
         <input type="text" id="fname" name="fname"><br><br>
         <input type="submit" value="Submit">
       </form>
+      <p></p>
+      <!--Atributo target-->
+      <a href="https://github.com/BruhoCS" target="_blank">Visit my profile</a>
+            <!-- Otras opciones de target: 
+            <a href="https://github.com/BruhoCS" target="_self">Visit my profile</a>
+            <a href="https://github.com/BruhoCS" target="__parent">Visit my profile</a>
+            <a href="https://github.com/BruhoCS" target="_top">Visit my profile</a> -->
+            <p></p>
+    <!--Uso del atributo accept: en este caso para recibir un file de tipo imagen-->
+    <form action="/action_page.php">
+        <input type="file" name="pic" accept="image/*">
+        <input type="submit">
+        </form>
+        <p></p>
+
+    <!-- Uso del atributo alt-->
+       <img src="" alt="Imagen de un perro">
+      
+
+
 </body>
 </html>
