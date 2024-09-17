@@ -6,30 +6,103 @@
 </head>
 <body>
     <!--Uso de from,accept-charset,enctype,method,label,input,name-->
+    <p>Formulario</p>
     <form action="" accept-charset="utf-8" enctype="multipart/form-data" method="get">
+        <!--Uso de maxlenght-->
         <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
+        <input type="text" id="fname" name="fname" maxlength="10"><br><br>
+        <!--Restart-->
+        <input type="reset" id="fname" name="fname">
+        <br><br>
+        <!--Contraseña(uso de passwrod)-->
+        <label for="pwd">Contraseña:</label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <!--Uso de size-->
+        <label for="fedad">Edad:</label>
+        <input type="number" id="fedad" size="3"><br><br>
+        <label for="fdate">Fecha actual:</label>
+        <input type="date" id="fdate" name="fdate"><br><br>
         <input type="submit" value="Submit">
-      </form>
-      <p></p>
+        <!-- CHECKED-->
+    <p>Checked</p>
+        <!--Casilla desactivada (disabled)-->
+        <input type="checkbox" name="objetos" value="Balon" disabled>
+        <label>Tengo balones</label>
+        <!--Casilla con checked-->
+        <input type="checkbox" name="objetos" value="Libro" checked>
+        <label>Tengo libros</label>
+        <!--Readonly-->
+    <p>ReadOnly</p>
+        <label for="country">Pais:</label>
+        <input type="text" id="country" name="country" value="España" readonly><br><br>
+        <!--Value-->
+        Elige tu favorito:
+        <button name="subject" type="submit" value="fav_Linux">Linux</button>
+        <!-- Boton deshabilitado-->
+        <button name="subject" type="submit" value="fav_Windows" disabled>Windows</button>
+            <!--En vez de button tambien se podria hacer:-->
+                <!--Checked
+            <input type="checkbox" name="objetos" value="Libro" checked>
+            <label>Tengo libros</label>-->
+        <!--Hidden-->
+        <p hidden>este parrafo no aparecerá</p><br>      
+        <p>Este parrafo si aparecerá</p>  
+        <!--rows-->
+        <textarea rows="4" cols="50">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean tincidunt sit amet quam at faucibus. Vestibulum facilisis arcu odio, et dictum nulla tempor id. Pellentesque mauris ante, egestas ut mollis vitae, pretium ac augue.Aenean vitae hendrerit nunc, ac sollicitudin turpis. Sed bibendum ultricies porttitor.Sed ultrices maximus quam et euismod.Mauris volutpat, nunc sit amet efficitur sollicitudin, nibh ante fringilla lectus, non dapibus augue enim in tellus. 
+        </textarea><br><br>
+        <!--Value-->
+        <label>Value select:</label>
+        <select name="lenguajes" id="lenguajes">
+            <option value="html">html</option>
+            <option value="js">JavaScript</option>
+            <option value="C">C#</option>
+            <option value="CSS">CSS</option>
+          </select><br><br>
+        <label>Value disabled:</label>
+        <input disabled><br><br>
+        <label>Value multiple:</label>
+        <select  id="SO" name="SO" multiple>
+            <option value="L">Linux</option>
+            <option value="W">Windows</option>
+            <option value="B">Brave</option>
+            <option value="S">Safari</option>
+        </select><br><br>
+        
+    </form>
+      <br>
+      <br>
+      <p>Link:</p>
       <!--Atributo target-->
       <a href="https://github.com/BruhoCS" target="_blank">Visit my profile</a>
             <!-- Otras opciones de target: 
             <a href="https://github.com/BruhoCS" target="_self">Visit my profile</a>
             <a href="https://github.com/BruhoCS" target="__parent">Visit my profile</a>
             <a href="https://github.com/BruhoCS" target="_top">Visit my profile</a> -->
-            <p></p>
+            <br>
+            <br>
+
     <!--Uso del atributo accept: en este caso para recibir un file de tipo imagen-->
+    <p>Recibir una imagen:</p>
     <form action="/action_page.php">
         <input type="file" name="pic" accept="image/*">
         <input type="submit">
         </form>
-        <p></p>
+        <br>
+        <br>
 
     <!-- Uso del atributo alt-->
+    <p>Alternativo:</p>
        <img src="" alt="Imagen de un perro">
-      
+        <br>
+        <br>
 
+    <!--Uso de serc-->
+    <p>Mostrar imagen</p>
+        <img src="https://www.shutterstock.com/image-photo/cape-tourinan-lighthouse-drone-view-260nw-1975163672.jpg" alt="Imagen de paisaje de Galicia">
+        <br>
+        <br>
+   
 
 </body>
 </html>
