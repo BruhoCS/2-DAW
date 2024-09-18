@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8" />
     <title>Actividad 1</title>
 </head>
 <body>
+    <h1>Esto es una linea con h1</h1>
+    <h4>Esto es una linea con h4</h4>
     <!--Uso de from,accept-charset,enctype,method,label,input,name-->
     <p>Formulario</p>
     <form action="" accept-charset="utf-8" enctype="multipart/form-data" method="get">
@@ -68,10 +70,79 @@
             <option value="B">Brave</option>
             <option value="S">Safari</option>
         </select><br><br>
-        
+        <!--OPTGROUP-->
+        <label>ejemplo de OPTGROUP : </label>
+        <select  name="jugadores" id="jugadores">
+            <optgroup label="jugadores españoles">
+              <option value="Carvajal">Carvajal</option>
+              <option value="Aspas">Iago Aspas</option>
+            </optgroup>
+            <optgroup label="jugadores brasileños ">
+              <option value="pele">Pele</option>
+              <option value="neymar">Neymar</option>
+            </optgroup>
+        </select><br><br>
+        <!--OPTGROUP disabled-->
+        <label>ejemplo de OPTGROUP disabled :</label>
+        <select  name="jugadores" id="jugadores">
+            <optgroup label="jugadores españoles">
+              <option value="Carvajal">Carvajal</option>
+              <option value="Aspas">Iago Aspas</option>
+            </optgroup>
+            <optgroup label="jugadores brasileños " disabled>
+              <option value="pele">Pele</option>
+              <option value="neymar">Neymar</option>
+            </optgroup>
+        </select><br><br>
+        <!--Option-->
+        <label>Ejemplo option : </label>
+        <select id="cars">
+            <option value="Linux">Linux</option>
+            <option value="Windows">Windows</option>
+            <option value="Debian">Debian</option>
+            <option value="Ubuntu">Ubuntu</option>
+          </select><br><br>
+           <!--Option disbaled-->
+        <label>Ejemplo option disbaled : </label>
+        <select id="cars">
+            <option value="Linux">Linux</option>
+            <option value="Windows" disabled>Windows</option>
+            <option value="Debian">Debian</option>
+            <option value="Ubuntu">Ubuntu</option>
+          </select><br><br>
+            <!--Option selected-->
+        <label>Ejemplo option selected : </label>
+        <select id="cars">
+            <option value="Linux">Linux</option>
+            <option value="Windows">Windows</option>
+            <option value="Debian">Debian</option>
+            <option value="Ubuntu" selected>Ubuntu</option>
+          </select><br><br>
+          <!--Fieldset-->
+          <fieldset>
+            <label for="fname">nombre:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="forma">forma</label>
+            <input type="text" id="forma" name="forma"><br><br>
+            <label for="color">color:</label>
+            <input type="text" id="color" name="color"><br><br>
+            <input type="submit" value="Submit">
+          </fieldset><br><br>
+          <!--Fieledset con legend-->
+          <fieldset>
+            <legend>Obejeto:</legend>
+            <label for="fname">nombre:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="forma">forma</label>
+            <input type="text" id="forma" name="forma"><br><br>
+            <label for="color">color:</label>
+            <input type="text" id="color" name="color"><br><br>
+            <input type="submit" value="Submit">
+          </fieldset><br><br>
+          <!---->
     </form>
-      <br>
-      <br>
+      <hr>
+      <hr>
       <p>Link:</p>
       <!--Atributo target-->
       <a href="https://github.com/BruhoCS" target="_blank">Visit my profile</a>
@@ -99,10 +170,12 @@
 
     <!--Uso de serc-->
     <p>Mostrar imagen</p>
-        <img src="https://www.shutterstock.com/image-photo/cape-tourinan-lighthouse-drone-view-260nw-1975163672.jpg" alt="Imagen de paisaje de Galicia">
+        <img src="https://www.shutterstock.com/image-photo/cape-tourinan-lighthouse-drone-view-260nw-1975163672.jpg" alt="Imagen de paisaje de Galicia" height="150">
         <br>
         <br>
-   
-
+   <h3>Uso de ismap</h3>
+   <a href="https://es.wikipedia.org/wiki/Galicia">
+        <img src="mapa-Galicia-es.jpg" alt="mapa Galicia" height="250" ismap>
+    </a>
 </body>
 </html>
