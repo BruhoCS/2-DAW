@@ -1,0 +1,22 @@
+/*encabezado*/
+    /*Logo*/
+.rounded{
+    width: 50px;
+    margin: 10px;
+}
+
+/*Contenido*/
+    /*Imagen*/
+.img-fluid{
+    width: 800px;
+}
+
+    /*Formulario*/
+.mb-3{
+    width: 400px;
+    margin: 50px;
+}
+.btn{
+    margin: 20px;
+    margin-left: 380px;
+}
