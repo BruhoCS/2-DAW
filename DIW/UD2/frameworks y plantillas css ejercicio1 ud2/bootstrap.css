@@ -4,13 +4,21 @@
     width: 50px;
     margin: 10px;
 }
-
+    /*titulo*/
+.display-1{
+    text-align: center;
+    margin: 20px;
+}
 /*Contenido*/
     /*Imagen*/
 .img-fluid{
     width: 800px;
+    margin: 20px;
 }
-
+    /*texto*/
+.text-center{
+    margin: 20px;
+}
     /*Formulario*/
 .mb-3{
     width: 400px;
