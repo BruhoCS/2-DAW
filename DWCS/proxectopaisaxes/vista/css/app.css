@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fontes/Montserrat-VariableFont_wght.ttf");
+}
+
+.hr-personalizado {
+    /* border-top: 3px solid #aeb984 !important;*/
+    border-top: 5px solid #4CA452 !important;
+    width: 50%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Montserrat, Nunito, Arial, Helvetica, sans-serif!important;
+}
+
+/* Cambiar cor do botón primario */
+.btn-primary {
+    background-color: #4CA452;
+    border-color: #4CA452;
+    color: #FFF; /* Texto negro para contraste */
+}
+
+/* Efecto hover para o botón primario */
+.btn-primary:hover {
+    background-color: #aeb984; 
+    border-color: #aeb984;
+    color: #000; 
+}
+
+.btn-primary:active {
+    background-color: #aeb984 !important; 
+    border-color: #aeb984 !important; 
+    box-shadow: none !important; 
+}
+
+.btn-primary:focus {
+    background-color: #aeb984 !important; 
+    border-color: #aeb984 !important;
+    box-shadow: none !important; 
+}
+
+
+.navbar {
+    background-color:#4CA452; /* #d3dfa3; /* #73FF79;  */
+}
+
+.navbar-nav .nav-link {
+    /*color: #221E1F;*/
+    color: #FFF;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-nav .nav-item .nav-link {
+    white-space: nowrap;
+}
+
+/* SUBMENÚS */
+
+.subproxecto-titulo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #221E1F;
+    margin-right: 15px; 
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Fondo do submenú */
+.navbar-secundaria {
+    background-color: #C8E6C9; /*#73FF79;*/
+}
+
+.navbar-secundaria .dropdown-menu {
+    background-color: #C8E6C9; /*#73FF79;*/
+    border: none;
+    margin-top: 0.5rem; 
+    padding: 0.5rem 0; 
+}
+
+/* Opcións do submenú */
+.navbar-secundaria .nav-link,
+.navbar-secundaria .dropdown-item {
+    color: #221E1F;
+    font-weight: 500;
+    padding: 0.5rem!important; /* Espazo interno */
+}
+
+/* Efecto hover: só subliñado */
+.navbar-secundaria .nav-link:hover,
+.navbar-secundaria .dropdown-item:hover {
+    text-decoration: underline;
+    background-color: transparent; 
+}
+
+.navbar-secundaria .dropdown-menu .dropdown-item {
+    white-space: nowrap; 
+}
+
+.navbar-secundaria .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+img {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+body.login-page .container {
+    max-width: 400px; 
+    width: 100%; 
+    display: block; 
+}
+
+body.login-page .navbar {
+    margin-top: 0; 
+}
+
+body.login-page .form-label {
+    width: 100%;
+    text-align: left;
+}
+
+body.login-page .form-control {
+    width: 100%;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+h2 {
+    margin-top: 1rem;
+}
+
+.img-fluid {
+    max-width: 100%!important;
+    height: auto;
+}
+
+#presentacion p {
+    text-align: justify;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}

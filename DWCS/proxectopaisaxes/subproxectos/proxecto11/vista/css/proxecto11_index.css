@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("fontes/Montserrat-VariableFont_wght.ttf");
+    }
+
+body {
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+h1{
+    font-size: 33px;
+}
+
+.menus{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.contidoIndex {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px; 
+}
+
+.contidoIndex img {
+    width: 100%; 
+    max-width: 600px;
+    height: auto; 
+    border-radius: 8px; 
+}
+
+/*Div que conten todo o contido */
+#contenedorFormulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+/*Clase do formulario*/
+.formulario{
+    /*Posicion*/
+    display: flex;
+    flex-direction: column;
+    /*Tamaño*/
+    width: 400px;
+    gap: 10px;
+    padding: 20px;
+    /*Fondo*/
+    background-color: rgb(246, 242, 242);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #4CA452;  
+}
+/*Parrafos do formulario*/
+.formulario >p{
+    font-size: 25px;
+    margin: 20px;
+}
+
+/*Estilo para checkboxes*/
+.checkBoxCor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+}
+/*Estilo da clase button*/
+.button{
+    margin: 10px;
+    background-color: #4CA452;
+}
+
+.button:hover{
+    margin: 10px;
+    background-color: #aeb984;
+}
+/*Estilo dos erros*/
+#mostrarErrosForm{
+    color: red;
+}
+
+
+
