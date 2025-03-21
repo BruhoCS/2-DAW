@@ -1,0 +1,8 @@
+<app-entreno-ia></app-entreno-ia>
+<div class="chat">
+  <form action="">
+    <textarea name="mensaje" [(ngModel)]="mensaje" placeholder="Indica tu edad,peso,altura,objetivo y pide una rutina a nuestro chat"></textarea>
+    <button (click)="enviarMensaje()" [disabled]="botonDeshabilitado">Enviar</button>
+  </form>
+</div>
+

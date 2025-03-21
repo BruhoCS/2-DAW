@@ -1,0 +1,63 @@
+ol{
+  list-style-type: none;
+}
+li{
+  display: inline-block;
+}
+/*Contenido*/
+.planesFithub{
+    margin: 20px;
+    margin-top: 180px;
+  }
+  
+  .tarjetasTarifas {
+    display: flex;
+    justify-content: space-around;
+    background-color: #260202;
+    box-shadow: 0 0 5px rgba(249, 0, 0, 0.7); /* Gran desenfoque */
+    height: 650px;
+    width: 100%;
+  }
+  
+  .tarjeta {
+    margin: 20px;
+    border: solid 8px rgba(56, 2, 2, 0.585);
+    background-color: rgba(0, 0, 0, 0.49);
+    border-radius: 20%;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    box-shadow: inset 0 0 15px rgba(246, 1, 1, 0.5);
+  }
+  
+  .tarjeta:hover{
+    transition: 0.8s;
+    box-shadow: inset 0 0 50px rgb(255, 0, 0); /* luz blanca */
+  }
+  .imagenTarifa {
+    width: 200px;
+    height: 150px;
+    border-radius: 10%;
+    
+  }
+  
+  .imagenTarifa:hover{
+    box-shadow: 0 0 100px rgba(249, 0, 0, 0.7); /* Gran desenfoque */
+  }
+  
+  #primerPlan > button {
+    margin-top: 52px;
+  }
+  
+  button {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    color: white;
+    height: 50px;
+    width: 150px;
+  }
+  
+  button:hover {
+    background-color: rgba(51, 5, 2, 0.603);
+  }
