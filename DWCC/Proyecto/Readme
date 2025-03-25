@@ -1,1 +1,6 @@
 Proyecto sobre una página de un gimnasio podrás encontrarla en este enlace: https://fithubclub.netlify.app/inicio
+Debido a que el proyecto está diseñado para permitir la visualización de distintas funcionalidades asociadas a diversos roles de usuario, no se ha implementado un sistema de seguridad completo. 
+
+Para facilitar la comparación de las funcionalidades de los roles, se proporcionan las siguientes credenciales de acceso:
+Nombre de usuario: Administrador, Contraseña: abc123..
+Nombre de usuario: Usuario, Contraseña: abc123..
