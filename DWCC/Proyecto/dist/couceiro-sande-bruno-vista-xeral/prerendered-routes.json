@@ -1,0 +1,11 @@
+{
+  "routes": [
+    "/",
+    "/administracion",
+    "/carrito",
+    "/entreno",
+    "/inicio",
+    "/tarifa",
+    "/tienda"
+  ]
+}
